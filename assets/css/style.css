@@ -54,6 +54,13 @@ header {
     margin: auto;
 }
 
+#container_portfolio {
+    background-color: white;
+    width: 960px;
+    margin: auto;
+    height: 450px;
+}
+
 h2 {
     padding: 15px 15px 15px 0px;
     color: teal;
@@ -61,6 +68,36 @@ h2 {
     margin: 30px;
     border-bottom-color: gray;
     border-bottom-width: 2px;
+}
+
+.project {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    margin: 0px 0px 30px 0px;
+}
+
+.pic {
+    width: 200px;
+    height: 150px;
+    padding: 0px 30px;
+}
+
+.bottom-centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bar {
+    position: absolute;
+    height: 30px;
+    width: 200px;
+    top: 70%;
+    background-color: teal;
+    transform: translate(15%, 0%);
 }
 
 #me {
